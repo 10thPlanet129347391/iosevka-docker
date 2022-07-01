@@ -1,49 +1,71 @@
-[buildPlans.iosevka]
-family = "Iosevka"
-spacing = "fixed"
+[buildPlans.kashevsky-hyperfocus]
+family = "Kashevsky Hyperfocus"
+spacing = "quasi-proportional-extension-only"
 serifs = "sans"
+no-cv-ss = true
+no-ligation = true
 
-[buildPlans.iosevka-av01]
-family = "Iosevka-AV01"
-spacing = "fixed"
-serifs = "sans"
+  [buildPlans.iosevka-hyperlegible.variants]
+  inherits = "ss15"
 
-[buildPlans.iosevka-av01.variants.design]
-turn-v = "curly"
-capital-g = "toothless"
-capital-i = "short-serifed"
-capital-j = "serifed"
-percent = "rings-connected"
-lig-ltgteq = "slanted"
-dollar = "open"
-at = "threefold"
-ampersand = "upper-open"
-number-sign = "upright"
-brace = "straight"
-caret = "low"
-asterisk = "hexlow"
-tilde = "low"
+    [buildPlans.iosevka-hyperlegible.variants.design]
+    capital-b = "standard-serifless"
+    capital-d = "standard-serifless"
+    capital-g = "toothless-corner-serifless-hooked"
+    capital-h = "serifless"
+    capital-i = "short-serifed"
+    capital-j = "serifless"
+    capital-k = "straight-serifless"
+    capital-m = "hanging"
+    capital-q = "crossing"
+    capital-r = "standing"
+    capital-w = "straight-flat-top"
+    capital-z = "straight-serifless"
+    a = "double-storey-tailed"
+    b = "toothed"
+    d = "toothed-serifless"
+    f = "flat-hook-serifed"
+    g = "single-storey-serifless"
+    i = "serifed"
+    j = "serifless"
+    k = "straight-serifless"
+    m = "top-left-serifed"
+    n = "straight"
+    q = "straight"
+    r = "serifless"
+    t = "flat-hook"
+    y = "straight-turn"
+    zero = "unslashed"
+    one = "no-base"
+    two = "straight-neck"
+    three = "flat-top"
+    four = "closed"
+    five = "vertical-upper-left-bar"
+    six = "straight-bar"
+    seven = "straight-serifless"
+    eight = "two-circles"
+    nine = "straight-bar"
+    asterisk = "turn-hex-high"
+    pilcrow = "low"
+    paren = "large-contour"
+    brace = "straight"
+    number-sign = "upright"
+    ampersand = "upper-open"
+    at = "fourfold"
+    dollar = "open"
+    percent = "rings-continuous-slash"
+    bar = "natural-slope"
+    ascii-single-quote = "raised-comma"
+    ascii-grave = "raised-inverse-comma"
+    question = "smooth"
 
-  [buildPlans.iosevka-av01.slopes]
-  upright = "normal"
-  italic = "italic"
+    [buildPlans.iosevka-hyperlegible.variants.italic]
+    l = "serifed"
+    v = "straight-motion-serifed"
+    x = "curly-serifless"
+    z = "straight-serifless"
 
-[buildPlans.iosevka-av01.weights.light]
-shape = 300
-menu = 300
-css = 300
-
-[buildPlans.iosevka-av01.weights.regular]
-shape = 400
-menu = 400
-css = 400
-
-[buildPlans.iosevka-av01.weights.medium]
-shape = 500
-menu = 500
-css = 500
-
-[buildPlans.iosevka-av01.weights.semibold]
+[buildPlans.iosevka-hyperlegible.widths.normal]
 shape = 600
-menu = 600
-css = 600
+menu = 5
+css = "normal"
