@@ -59,13 +59,13 @@ no-ligation = true
     ascii-grave = "raised-inverse-comma"
     question = "smooth"
 
-    [buildPlans.iosevka-hyperlegible.variants.italic]
+    [buildPlans.kashevsky-hyperfocus.variants.italic]
     l = "serifed"
     v = "straight-motion-serifed"
     x = "curly-serifless"
     z = "straight-serifless"
 
-[buildPlans.iosevka-hyperlegible.widths.normal]
+[buildPlans.kashevsky-hyperfocus.widths.normal]
 shape = 600
 menu = 5
 css = "normal"
